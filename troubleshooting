@@ -1,0 +1,4 @@
+This error shares common causes with the Connection Timeout error. To fix it, you can do the following:
+1.Make sure the network supports the connection on the SSH port you are using. Some public networks may block port 22 or user SSH ports. To test the port, you can, for example, try to connect to other hosts through the same port.
+2.Check firewall rules. Make sure the default policy is not DROP and that the firewall is not blocking this port.
+3.Make sure the service is running and bound to the required port.
